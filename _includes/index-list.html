@@ -1,0 +1,5 @@
+<ol class="list">
+    {% for item in site.categories[include.category] %}
+    <li><a href="{{item.url}}">{{item.title}}</a></li>
+    {% endfor %}
+</ol>
