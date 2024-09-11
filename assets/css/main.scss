@@ -4,11 +4,12 @@
 @import "base";
 
 html {
-    font-size: min(1.5vw, 1.25em);
+    font-size: min(4vw, 1.25em);
 }
 
 body {
     max-width: 40em;
+    padding: 0 2em;
     margin: auto;
 }
 
@@ -35,6 +36,19 @@ header {
             margin-left: 1em;
             display: inline;
         }
+    }
+    @media (max-width: 40rem) {
+        ul {
+            list-style-position: inside;
+            li {
+                margin-left: 0;
+                display: block;
+            }
+        }
+        h1 {
+            display: block;
+        }
+        display: block;
     }
 }
 
