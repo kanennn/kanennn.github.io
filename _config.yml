@@ -1,0 +1,14 @@
+url: "kanennn.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+license: "MIT"
+license_url: "LICENSE"
+
+repo_url: "github.com/kanennn/kanennn.github.io"
+repo_host: "GitHub"
+
+author: "kanennn"
+name: "kanen stephens"
+
+header_links: [["home/", "/"], ["blog/", "blog"]]

@@ -1,0 +1,15 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+$color0: #171a1f;
+$color1: #292e31;
+$color2: #444b4a;
+$color3: #7d837e;
+$color4: #a2a3a2;
+$color5: #e3dfe0;
+
+$bodyFont: "Fira Code", monospace;
+
+body {
+    background: $color0;
+    color: $color4;
+    font-family: $bodyFont;
+}

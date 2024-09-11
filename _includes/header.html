@@ -1,0 +1,10 @@
+<header>
+    <h1>{{site.url}}</h1>
+    <h1>
+        <ul>
+            {% for item in site.header_links %}
+            <li><a href="{{item | slice: 1}}">{{item | slice: 0}}</a></li>
+            {% endfor %}
+        </ul>
+    </h1>
+</header>
