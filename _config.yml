@@ -11,4 +11,4 @@ repo_host: "GitHub"
 author: "kanennn"
 name: "kanen stephens"
 
-header_links: [["home/", "/"], ["blog/", "blog"]]
+header_links: [["home/", "/"], ["log/", "log"]]
