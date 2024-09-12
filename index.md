@@ -24,6 +24,6 @@ i mean- what?
 {: .custom .link}
 
 -   [**GitHub** @kanennn](https://github.com/kanennn)
--   [**Instagram** @kanennne](https://www.instagram.com/kanennne/)
+-   [**Instagram** @thekanennn](https://www.instagram.com/thekanennn/)
 -   [**Mastadon** @kanennn](https://mastodon.social/@kanennn)
 -   [**Dead Bird Site** @kkanennn](https://x.com/kkanennn)
