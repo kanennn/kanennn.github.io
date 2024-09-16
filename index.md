@@ -25,6 +25,7 @@ i mean- what?
 
 -   [**GitHub** @kanennn](https://github.com/kanennn)
 -   [**YouTube** @kkanennn](https://www.youtube.com/@kkanennn)
+-   [**pixelfed** @kanennn](https://pixelfed.social/i/web/profile/741319917228556889)
 -   [**Instagram** @kakanennn](https://www.instagram.com/kakanennn/)
 -   [**Mastadon** @kanennn](https://mastodon.social/@kanennn)
 -   [**Dead Bird Site** @kkanennn](https://x.com/kkanennn)
