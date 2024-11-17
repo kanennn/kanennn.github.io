@@ -18,7 +18,10 @@ body {
 }
 
 nav {
-    //margin-block-start: 1em;
+    position: sticky;
+    top: 0;
+    background-color: $bg;
+
     display: flex;
     justify-content: space-between;
     h1 {
@@ -40,20 +43,52 @@ nav {
             display: inline;
         }
     }
+
+    #nav-dropdown {
+      display: none;
+    }
+
+    label {
+      display: none;
+    }
+
     @media (max-width: 40rem) {
-        display: block;
-        ul {
-            list-style-position: inside;
+        flex-wrap: wrap;
+        h1#burger {
+          label {
+              cursor: pointer;
+              display: inline-block;
+              color: $fg;
+          }
+          #nav-dropdown:checked ~ label {
+            color: $color5;
+          }
+        }
+
+        h1#links {
+            display: none; 
+        }
+    }
+}
+
+section#burger-links {
+    margin-top: auto;
+    margin-bottom: auto;
+    ul {
+        line-height: 2em;
+        margin: 0;
+        list-style-position: inside;
             li {
                 margin-left: 0;
                 display: block;
             }
-        }
-        h1 {
-            display: block;
-        }
     }
 }
+
+nav:has(h1#burger #nav-dropdown:not(:checked)) ~ section#burger-links {
+  display: none;
+}
+
 
 header {
   font-size: 1.25em;
@@ -65,6 +100,10 @@ main {
   text-justify: auto;
   hyphens: auto;
 }
+
+nav:has(h1#burger #nav-dropdown:checked) ~ main {
+  display: none;
+} 
 
 .home {
   text-align: center;
@@ -154,5 +193,9 @@ footer {
         margin-inline-end: 0em;
         display: inline-block;
         font-size: 1em;
+
+        span {
+          display: inline-block;
+        }
     }
 }
