@@ -1,0 +1,13 @@
+<nav>
+  <h1><a href="/">{{site.url}}</a><h1>
+    <h1>
+        <ul>
+            {% for item in site.header_links %}
+            <li><a href="{{item | slice: 1}}">{{item | slice: 0}}</a></li>
+            {% endfor %}
+        </ul>
+    </h1>
+    <a style="display: none" rel="me" href="https://mastodon.social/@kanennn"
+        >Mastodon</a
+    >
+</nav>

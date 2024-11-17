@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: basic
 ---
 
-{% include header.html %}
+{% include header.html title=page.title %}
 
 {{content}}
-
-{% include footer.html %}

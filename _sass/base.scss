@@ -8,8 +8,13 @@ $color5: #e3dfe0;
 
 $bodyFont: "Fira Code", monospace;
 
+$bg: $color1;
+
+$fg: $color4;
+
+
 body {
-    background: $color0;
-    color: $color4;
+    background: $bg;
+    color: $fg;
     font-family: $bodyFont;
 }

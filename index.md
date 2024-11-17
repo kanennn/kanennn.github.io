@@ -1,31 +1,15 @@
 ---
-layout: page
-title: "welcome to mi casa"
+layout: home
+title: "yeehaw"
 ---
 
-# 🗿 whoami
-
-{: .custom .dash}
-
--   100% organic lettuce
--   made of bullet points
--   out to change the world
--   loves hedgehogs
--   creative hurricane
--   enneagram 5
--   christian ☦️
-
-# ☃️ i can hide but you can't run
-
-i mean- what?
-<br/>
-<br/>
-
-{: .custom .link}
-
--   [**GitHub** @kanennn](https://github.com/kanennn)
--   [**YouTube** @kkanennn](https://www.youtube.com/@kkanennn)
--   [**pixelfed** @kanennn](https://pixelfed.social/i/web/profile/741319917228556889)
--   [**Instagram** @kakanennn](https://www.instagram.com/kakanennn/)
--   [**Mastadon** @kanennn](https://mastodon.social/@kanennn)
--   [**Dead Bird Site** @kkanennn](https://x.com/kkanennn)
+<h1>{{site.name}}</h1>
+bongos.
+i am a professional
+<h2>
+<a href="{{site.github}}"><i class="fa-brands fa-github"></i></a>
+<a href="{{site.youtube}}"><i class="fa-brands fa-youtube"></i></a>
+<a href="{{site.twitch}}"><i class="fa-brands fa-twitch"></i></a>
+<a href="{{site.instagram}}"><i class="fa-brands fa-instagram"></i></a>
+<a href="{{site.bluesky}}"><i class="fa-brands fa-bluesky"></i></a>
+</h2>

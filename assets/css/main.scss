@@ -4,25 +4,28 @@
 @import "base";
 
 html {
-    font-size: min(4vw, 1.25em);
+    font-size: min(8vw, 1em);
 }
 
 body {
-    max-width: 40em;
+    max-width: 50em;
     padding: 0 2em;
     margin: auto;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
-header {
-    margin-block-start: 1em;
+nav {
+    //margin-block-start: 1em;
     display: flex;
     justify-content: space-between;
     h1 {
-        font-weight: 500;
         padding: 0;
         margin: 0;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-start: 1.5em;
+        margin-block-end: 1.5em;
         margin-inline-start: 0em;
         margin-inline-end: 0em;
         display: inline-block;
@@ -50,6 +53,28 @@ header {
             display: block;
         }
     }
+}
+
+header {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+main {
+  text-align: justify;
+  text-justify: auto;
+  hyphens: auto;
+}
+
+.home {
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: auto;
+  margin-bottom: auto;  
+  a:hover {
+    background-color: transparent;
+    color: $color5;
+  }
 }
 
 h1 {
@@ -96,35 +121,35 @@ ul.custom.link > li:before {
 }
 
 a {
-    color: $color4;
+    font-weight: 900;
+    color: $fg;
     text-decoration: none;
-    background-color: none;
-    padding: 0.1em;
+    background-color: transparent;
+    padding: 0 0.1em;
+    border-radius: 0.2em;
     // border-color: $color2;
     // border: 0.1em solid $color2;
     // border-radius: 0.2em;
     // border-width: 0.1em;
 }
 a:hover {
-    padding: 0;
-    color: $color0;
-    background-color: $color5;
-    border-radius: 0.2em;
-    border: 0.1em solid $color5;
-    text-decoration: none;
+    color: $bg;
+    background-color: $fg;
 }
 
 footer {
-    margin-block-start: 4em;
+    margin-block-start: 3em;
     * {
         color: $color3;
     }
     h1 {
+        text-align: center;
+        width: 100%;
         font-weight: 200;
         padding: 0;
         margin: 0;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-start: 1.5em;
+        margin-block-end: 1.5em;
         margin-inline-start: 0em;
         margin-inline-end: 0em;
         display: inline-block;
