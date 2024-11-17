@@ -117,10 +117,6 @@ nav:has(h1#burger #nav-dropdown:checked) ~ main {
   a {
     font-size: min(8vw, 1.25em); 
   }
-  a:hover {
-    background-color: transparent;
-    color: $color5;
-  }
 }
 
 h1 {
@@ -178,17 +174,9 @@ a {
     font-weight: 900;
     color: $fg;
     text-decoration: none;
-    background-color: transparent;
-    padding: 0 0.1em;
-    border-radius: 0.2em;
-    // border-color: $color2;
-    // border: 0.1em solid $color2;
-    // border-radius: 0.2em;
-    // border-width: 0.1em;
 }
 a:hover {
-    color: $bg;
-    background-color: $fg;
+    color: $color5;
 }
 
 footer {
