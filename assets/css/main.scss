@@ -115,6 +115,7 @@ nav:has(h1#burger #nav-dropdown:checked) ~ main {
     text-align: center;
   }
   a {
+    padding: 0.1em;
     font-size: min(8vw, 1.25em); 
   }
 }
